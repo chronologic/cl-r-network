@@ -1,0 +1,26 @@
+{
+  "name": "cl-r-network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chronologic/cl-r-network.git",
+  "author": "Piotr Kosiński <piotrkosinski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bluebird": "^3.5.24",
+    "@types/node": "^10.12.9",
+    "bluebird": "^3.5.3",
+    "libp2p": "^0.24.0",
+    "libp2p-mdns": "^0.12.0",
+    "libp2p-mplex": "^0.8.4",
+    "libp2p-secio": "^0.10.1",
+    "libp2p-tcp": "^0.13.0",
+    "peer-id": "^0.12.0",
+    "peer-info": "^0.14.1",
+    "pull-pushable": "^2.2.0",
+    "pull-stream": "^3.6.9",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  }
+}
